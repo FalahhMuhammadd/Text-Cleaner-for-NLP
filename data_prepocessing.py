@@ -3,6 +3,7 @@ import streamlit as st
 import re
 from nltk.tokenize import TweetTokenizer
 import nltk
+nltk.download('stopwords')
 import string
 from nltk.corpus import stopwords
 
